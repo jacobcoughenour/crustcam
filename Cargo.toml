@@ -1,0 +1,12 @@
+[package]
+name = "crustcam"
+version = "0.1.0"
+authors = ["jcoughenour <me@jacobcoughenour.com>"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+nokhwa = { version = "0.10.3", features = ["input-native", "output-threaded"] }
+ctrlc = "3.2.5"
+termsize = "0.1.6"
